@@ -54,8 +54,8 @@ public class Assignment1_2018 {
 	             */
 	        }
 	    }
-	    return "-1";
-	    //returns -1 (error) when string length IS 0 (when there is no string)
+	    return "";
+	    //returns empty string when string length IS 0 (when there is no string); also for when there is no character to right
 	}
 	
 	
