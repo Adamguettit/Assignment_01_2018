@@ -37,8 +37,8 @@ public class Assignment1_2018 {
 	    //main procedure used to blow up string
 		if (str.length() != 0) {
 			//check if string length is NOT 0 (if there is a string)
-	        if (!Character.isDigit(str.charAt(0))) {
-	            return Character.toString(str.charAt(0)) + blowup(str.substring(1));
+	            if (!Character.isDigit(str.charAt(0))) {
+	                return Character.toString(str.charAt(0)) + blowup(str.substring(1));
 	        	/* 
 	        	 * if the character at index 0 of the string is a digit, then return the character to its initial index
 	        	 * blowup the substring following the index of that character 
